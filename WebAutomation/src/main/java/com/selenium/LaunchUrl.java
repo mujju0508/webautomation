@@ -8,7 +8,7 @@ public class LaunchUrl {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-System.setProperty("webdriver.chrome.driver", "C:\\EclipseWorkingDirectory\\seleniumProject\\src\\test\\resources\\drivers\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\EclipseWorkingDirectory\\WebAutomation\\drivers\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.browserstack.com");
 System.out.println("URL launch browser stack");
