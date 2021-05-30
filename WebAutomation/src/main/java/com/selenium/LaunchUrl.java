@@ -11,7 +11,7 @@ public class LaunchUrl {
 System.setProperty("webdriver.chrome.driver", "C:\\EclipseWorkingDirectory\\seleniumProject\\src\\test\\resources\\drivers\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.browserstack.com");
-System.out.println("URL launch");
+System.out.println("URL launch browser stack");
 driver.close();
 System.out.println("URL closed");
 	}
