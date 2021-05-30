@@ -12,6 +12,8 @@ System.setProperty("webdriver.chrome.driver", "C:\\EclipseWorkingDirectory\\sele
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.browserstack.com");
 System.out.println("URL launch browser stack");
+System.out.println("added new line");
+
 System.out.println("added new line by master");
 System.out.println("added 3rd line by master");
 driver.close();
